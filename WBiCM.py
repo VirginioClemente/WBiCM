@@ -130,7 +130,20 @@ class weighted_bipartite():
 
 
     def sampler(self,n_samples,folder_name = 'samples_WBiCM'):
-
+        """
+        Generates a specified number of samples and saves them in a folder.
+    
+        Args:
+            n_samples (int): The number of samples to generate.
+            folder_name (str, optional): The name of the folder where samples will be saved.
+                Defaults to 'samples_WBiCM'.
+    
+        Raises:
+            OSError: If the specified folder already exists.
+    
+        Returns:
+            None
+        """
         try:
             os.mkdir(folder_name)
         except:
