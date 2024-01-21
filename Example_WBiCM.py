@@ -1,4 +1,4 @@
-from Weighted_Bipartite import weighted_bipartite
+from WBiCM import weighted_bipartite
 
 
 # Importing the weighted bipartite network matrix
