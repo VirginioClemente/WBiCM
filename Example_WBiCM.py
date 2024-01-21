@@ -1,5 +1,5 @@
 from WBiCM import weighted_bipartite
-
+import numpy as np
 
 # Importing the weighted bipartite network matrix
 weighted_matrix = np.loadtxt('bicm_matW.csv', delimiter=',',dtype=str)
